@@ -10,7 +10,7 @@ class YamlDocs < Formula
   on_macos do
     on_intel do
       url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.1/yaml-docs_0.0.1_Darwin_x86_64.tar.gz"
-      sha256 "ce9a5ca8682044da2a12199ac9115c626a16f6adb447f306a0f8d100feaa0ca8"
+      sha256 "3b7be49143db0234a0c472203bbe8276cc606f4638187778115c07bd155f1491"
 
       def install
         bin.install "yaml-docs"
@@ -18,7 +18,7 @@ class YamlDocs < Formula
     end
     on_arm do
       url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.1/yaml-docs_0.0.1_Darwin_arm64.tar.gz"
-      sha256 "41b3a1406626ab100cdea47f8f345d09e9d1b45a8505f92e0a882144bf1716b7"
+      sha256 "358999ef77ca37acbb872710a1290be4ffd011511b2f4f3095d1e680a1ba74b0"
 
       def install
         bin.install "yaml-docs"
@@ -30,7 +30,7 @@ class YamlDocs < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.1/yaml-docs_0.0.1_Linux_x86_64.tar.gz"
-        sha256 "d0660821aa7584f840423e58693dcd0eab9dc336a1fb06b0ab28d19dd387fe84"
+        sha256 "86d28abbb4179c388469b7381fb46320151345e4901fd648a1db35a60c7aaec6"
 
         def install
           bin.install "yaml-docs"
@@ -40,7 +40,7 @@ class YamlDocs < Formula
     on_arm do
       if !Hardware::CPU.is_64_bit?
         url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.1/yaml-docs_0.0.1_Linux_arm6.tar.gz"
-        sha256 "4eb28bab1930dd42f0e491d4fbd29817a47aca0021ef56aaca68c30a2c1f5580"
+        sha256 "8fea0d677185b6bfc7fe27070034dc970ba0ffcc5abc51afac60fb83c4a93893"
 
         def install
           bin.install "yaml-docs"
@@ -50,7 +50,7 @@ class YamlDocs < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.1/yaml-docs_0.0.1_Linux_arm64.tar.gz"
-        sha256 "c4e1ed8cc270601b969fa68bdde13bcdc4468e5213a9390319265fcacb433145"
+        sha256 "538fd41bb07182c2d18d4099ab4ad4ce11c3fb1cc625dcc61df8409af6468d72"
 
         def install
           bin.install "yaml-docs"
