@@ -5,20 +5,20 @@
 class YamlDocs < Formula
   desc "Automatically generate markdown documentation for YAML configuration files"
   homepage "https://github.com/blakyaks/yaml-docs"
-  version "0.0.11"
+  version "0.0.12"
 
   on_macos do
     on_intel do
-      url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.11/yaml-docs_0.0.11_Darwin_x86_64.tar.gz"
-      sha256 "9f687c4ac7ac5f7bcb5b1941026c035120934c2279b672e8482d1c26a69965f1"
+      url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.12/yaml-docs_0.0.12_Darwin_x86_64.tar.gz"
+      sha256 "c1c63176bc1e607993f999e1035b243f0e2d3127edb9ab0e33b3ef1d29ae0fa9"
 
       def install
         bin.install "yaml-docs"
       end
     end
     on_arm do
-      url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.11/yaml-docs_0.0.11_Darwin_arm64.tar.gz"
-      sha256 "7172fd6ef306ce9e5c2af11b533211ec689f9b3d9fbf0411d44423c93cb03d57"
+      url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.12/yaml-docs_0.0.12_Darwin_arm64.tar.gz"
+      sha256 "c90802de702064174017fc6736043d455bd685c21bcf17908e84be937fe462b8"
 
       def install
         bin.install "yaml-docs"
@@ -29,8 +29,8 @@ class YamlDocs < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.11/yaml-docs_0.0.11_Linux_x86_64.tar.gz"
-        sha256 "74661629ce481e56e68bf977bc2a9c9fbff6fbcca2782f73044e0601a92cffc4"
+        url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.12/yaml-docs_0.0.12_Linux_x86_64.tar.gz"
+        sha256 "d9766524e6e1fb5dfaca7da139c7314c573ff2fc280d2a23c73f7746824573f9"
 
         def install
           bin.install "yaml-docs"
@@ -39,8 +39,8 @@ class YamlDocs < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.11/yaml-docs_0.0.11_Linux_arm6.tar.gz"
-        sha256 "012901aa609fb6c8a54a3711dc33d15a12f66bf3b94e5799b31a9a43e9bb9a6a"
+        url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.12/yaml-docs_0.0.12_Linux_arm6.tar.gz"
+        sha256 "6447b098219b0f092afdb318f128c5e887b916f12a0fcbe728a391346e8371e2"
 
         def install
           bin.install "yaml-docs"
@@ -49,8 +49,8 @@ class YamlDocs < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.11/yaml-docs_0.0.11_Linux_arm64.tar.gz"
-        sha256 "8d8d719989ac0433f73775a278ef2ee8fab8bd663a285a24bf9f8d7aa276f904"
+        url "https://github.com/blakyaks/yaml-docs/releases/download/v0.0.12/yaml-docs_0.0.12_Linux_arm64.tar.gz"
+        sha256 "c8570b69aae4a4ec1367a2b4b435595880f5af3c4868f13711d03696dc9a7e75"
 
         def install
           bin.install "yaml-docs"
